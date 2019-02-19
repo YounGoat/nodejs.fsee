@@ -1,0 +1,34 @@
+{
+    "bin": {
+        "fsee": "bin/fsee.js"
+    },
+    "dependencies": {
+        "commandos": "^0.3.1",
+        "jinang": "^0.22.0",
+        "noda": "^0.5.0",
+        "undertake": "^0.0.4"
+    },
+    "devDependencies": {},
+    "directories": {},
+    "scripts": {
+        "test": "mocha"
+    },
+    "name": "fsee",
+    "version": "0.0.1",
+    "main": "index.js",
+    "keywords": [
+        "fs",
+        "fs-traverse"
+    ],
+    "homepage": "https://github.com/YounGoat/nodejs.fsee",
+    "description": "File system traversing tool.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YounGoat/nodejs.fsee.git"
+    },
+    "author": {
+        "name": "YounGoat",
+        "email": "youngoat@163.com",
+        "url": "https://youngoat.github.io"
+    }
+}

@@ -1,0 +1,19 @@
+
+NAME
+    fsee - Traverse the directory.
+
+SYNOPSIS
+    fsee --path <pathname> --processor <js-path> --concurrency <number>
+
+ARGUMENTS 
+    --path <pathname> 
+    Path of directory to be traversed.
+
+    --processor <js-path>
+    A Node.js module used to deal with each item.
+
+    --concurrency <number>
+    Number of items to be processed at the same time.
+
+    --directory-first
+    Process directory itself firstly before processing sub files and directories.
